@@ -1,3 +1,4 @@
+a=2
 def main(a):
     """
     Check the natural number. Natural numbers are numbers used in counting.
@@ -7,4 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a>0
+print(main(a))
