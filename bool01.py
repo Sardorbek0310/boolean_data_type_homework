@@ -1,3 +1,5 @@
+a=4
+b=4
 def main(a,b):
     """
     Check the following statement "they are equal "
@@ -8,4 +10,5 @@ def main(a,b):
         bool
     """
     # Write your code here
-    return 
+    return a==b
+print(main(a,b))
