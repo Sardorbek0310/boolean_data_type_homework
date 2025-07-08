@@ -1,3 +1,4 @@
+a=4
 def main(a):
     """
     check the following statement "The variable "a" is an odd number"
@@ -7,4 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a%2!=0
+print(main(a))
