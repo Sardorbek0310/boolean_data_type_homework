@@ -1,3 +1,4 @@
+a=5
 def main(a):
     """
     check the following statement "The variable 'a' is equal 7"
@@ -7,4 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a==7
+print(main(a))
