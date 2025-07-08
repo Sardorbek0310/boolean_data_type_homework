@@ -1,3 +1,4 @@
+a=-1
 def main(a):
     """
     check the whole number. Integers are 0 and a positive number.
@@ -7,4 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return
+    return int(a)>=0
+print(main(a))
